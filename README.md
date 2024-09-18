@@ -1,7 +1,9 @@
 # grace-aabw
 Code for "GRACE satellite observations of Antarctic Bottom Water transport variability", submitted to JGR: Oceans
 
-Final plots in the paper are created in hr_paper_everything0.ipynb and hr_timeseries.ipynb. default.py contains some shared arguments, which are mostly only used by hr_paper_everything0.ipynb. cosima_grace.py contains the bulk of the functions for heavy lifting
+Final plots in the paper are created in hr_paper_everything0.ipynb and hr_timeseries.ipynb. 
+Trends in AABW, and the final error on these trends, are calculated in hr_trend_AR1_error.ipynb.
+default.py contains some shared arguments, which are mostly only used by hr_paper_everything0.ipynb. cosima_grace.py contains the bulk of the functions for heavy lifting
 
 GRACE_validation.ipynb compares GRACE data to in situ records
 
